@@ -1,0 +1,38 @@
+.openSpaces{
+    font-family: $font-main;
+    color: $color-title;
+    text-align: center;
+}
+
+
+.openSpaces__box{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.openSpaces__title{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 45px;
+}
+
+.uppercaseTitle{
+    text-transform: uppercase;
+}
+
+.openSpaces__img{
+    width: 90px;
+    height: 90px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.openSpaces__titleBox{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.openSpaces__textBox{
+    font-size: 16px;
+    margin-top: 12px;
+}
