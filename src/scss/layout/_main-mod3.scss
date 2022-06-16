@@ -1,0 +1,41 @@
+.freeShipping{
+
+    background-color: $color-background-free;
+    font-family: $font-main;
+    color: $color-title-free;
+    text-align: center;
+
+    &__img{
+        width: 120px;
+        height: 120px;
+        margin: 68px 156px 10px 155px;
+    }
+
+    &__title{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    &__text{
+        font-size: 14px;
+        margin: 5px 20px;
+    }
+
+    &__button{
+        background-color: $color-background-free;
+        border: none;
+        margin: 5px 120px 50px 120px;
+        padding: 12px 24px;
+    
+        a{
+            color: $color-button-text;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}
+
+
+
+
+
