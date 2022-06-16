@@ -7,7 +7,19 @@
     justify-content: center;
     align-items: center;
 
-  
+    @media all and (min-width: 900px){
+     height: 275px;
+    }
+    
+    &__container{
+        @media all and (min-width: 900px){
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
 
     &__title{
         color: $color-nav-footer-text;
@@ -16,14 +28,18 @@
     }
 
     &__textMenu li{
+        margin-top: 5px;
+        
         a{
         color: $color-nav-footer-text ;
         font-size: 14px;
         text-decoration: none;
+        
             .fa-brands{
-                width: 24px;
-                height: 26px;
-                color: white;
+                font-size: 24px;
+                color: $color-social-icons;
+                margin-top: 20px;
+                padding-right: 12px;
             }
         }
     }
@@ -32,27 +48,22 @@
         margin: 40px 0;
     }
 
-
     &__arrowUp{
         position: relative;
         a{  
             width: 50px;
             height: 50px;
-            color: $color-nav-footer-text;
+            color: $color-arrow;
             position: absolute;
-            left: 100px;
+            bottom: -30px;
+            left: 110px;
+        }
+
+        @media all and (min-width: 900px){
+            bottom: 40px;
+            left: 260px;
         }
        
     }
-
-
-
-
-
-
-
-
-
-
 
 }

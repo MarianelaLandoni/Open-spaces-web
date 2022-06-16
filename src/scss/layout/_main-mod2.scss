@@ -3,37 +3,48 @@
     font-family: $font-main;
     color: $color-title;
     text-align: center;
+
+    @media all and (min-width: 900px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &__box{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    &__title{
+        font-size: 24px;
+        font-weight: 600;
+        padding: 45px;
+        grid-column: 1 / 4;
+    }
+
+    &__img{
+        width: 90px;
+        height: 90px;
+        margin-top: 37px;
+        margin-bottom: 45px;
+    }
+
+    &__titleBox{
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    
+    &__textBox{
+        font-size: 16px;
+        margin-top: 12px;
+        padding-bottom: 50px;
+    }
+
 }
 
 
-.openSpaces__box{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.openSpaces__title{
-    font-size: 24px;
-    font-weight: 600;
-    padding: 45px;
-}
 
 .uppercaseTitle{
     text-transform: uppercase;
 }
 
-.openSpaces__img{
-    width: 90px;
-    height: 90px;
-    margin-top: 45px;
-    margin-bottom: 45px;
-}
-.openSpaces__titleBox{
-    font-size: 20px;
-    font-weight: 600;
-    
-}
-
-.openSpaces__textBox{
-    font-size: 16px;
-    margin-top: 12px;
-}

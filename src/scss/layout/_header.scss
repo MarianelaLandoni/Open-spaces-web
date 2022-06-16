@@ -9,52 +9,64 @@
     justify-content: space-between;
     align-items: center;
 
+
+    &__navMobile{
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        position: fixed;
+        top: 65px;
+        left: 20px;
+    }
+
+    &__navDesktop{
+        display: none;
+
+        @media all and (min-width: 1728px){
+            display: inline-block;
+        }
+    }
+    
+    &__iconMenu{
+        color: $color-menu-icon;
+        @media all and (min-width: 1728px){
+            display: none;
+        }
+    }
+    &__logo{
+        width: 213px;
+        height: 96px;
+        margin: 20px;
+    }
+    
+    &__title{
+        width: 400px;
+        font-family: $font-main;
+        font-size: 24px;
+        font-weight: 600;
+        color: $color-title;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+    &__button{
+        width: 176px;
+        height: 48px;
+        background-color: $color-button;
+        color: $color-button-text;
+        border: none;
+        transform: translateY(-150px);
+
+        a{
+            color: $color-button-text;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
 }
 
-.nav__mobile{
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    position: fixed;
-    top: 65px;
-    left: 20px;
-}
-
-.menu-icon{
-    color: $color-menu-icon;
-}
-.logo{
-    width: 213px;
-    height: 96px;
-    margin: 20px;
-}
-
-.principalTitle{
-    width: 400px;
-    font-family: $font-main;
-    font-size: 24px;
-    font-weight: 600;
-    color: $color-title;
-    text-align: center;
-    padding-bottom: 40px;
-}
-
-.header__button{
-    width: 176px;
-    height: 48px;
-    background-color: $color-button;
-    color: $color-button-text;
-    border: none;
-    transform: translateY(-150px);
-}
-
-.header__button a{
-    color: $color-button-text;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: capitalize;
-    text-decoration: none;
-}
 
 
 
@@ -70,6 +82,3 @@
 
 
 
-.nav__desktop{
-    display: none;
-}
