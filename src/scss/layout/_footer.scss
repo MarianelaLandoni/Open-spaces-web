@@ -20,6 +20,11 @@
         color: $color-nav-footer-text ;
         font-size: 14px;
         text-decoration: none;
+            .fa-brands{
+                width: 24px;
+                height: 26px;
+                color: white;
+            }
         }
     }
 
@@ -29,10 +34,13 @@
 
 
     &__arrowUp{
+        position: relative;
         a{  
-            width: 24px;
-            height: 24px;
-            color: $color-nav-footer-text
+            width: 50px;
+            height: 50px;
+            color: $color-nav-footer-text;
+            position: absolute;
+            left: 100px;
         }
        
     }

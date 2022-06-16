@@ -2,6 +2,10 @@
     font-family: $font-main;
     background-color: $color-background;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__container{
         padding: 90px 30px 140px 30px;
