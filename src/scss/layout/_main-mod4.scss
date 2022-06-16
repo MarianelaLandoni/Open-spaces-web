@@ -1,3 +1,56 @@
-.img_mod4{
-    width: 100px;
-}
+.createSpaces{
+    font-family: $font-main;
+    background-color: $color-background;
+    text-align: center;
+
+    &__container{
+        padding: 90px 30px 140px 30px;
+    }
+    &__title{
+        font-size: 24px;
+        font-weight: 600;
+        color: $color-title;
+    }
+    
+    &__text{
+        font-size: 14px;
+        color: $color-title;
+        padding: 20px 50px;
+    }
+    
+    &__button{
+        width: 176px;
+        height: 48px;
+        background-color: $color-button;
+        color: $color-button-text;
+        border: none;
+        margin: 50px 120px 0px 120px;
+        padding: 12px 24px;
+    
+        a{
+            color: $color-button-text;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+
+    &__img{
+        height: 315px;
+        background-image: url(../images/creando-espacios.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 0;
+    }
+}   
+
+
+
+
+
+
+
+
+
+
