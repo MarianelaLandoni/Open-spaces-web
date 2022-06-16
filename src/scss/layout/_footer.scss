@@ -1,0 +1,50 @@
+.footer{
+    height: 550px;
+    background-color: $color-background-footer;
+    font-family: $font-main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+
+    &__title{
+        color: $color-nav-footer-text;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    &__textMenu li{
+        a{
+        color: $color-nav-footer-text ;
+        font-size: 14px;
+        text-decoration: none;
+        }
+    }
+
+    &__box{
+        margin: 40px 0;
+    }
+
+
+    &__arrowUp{
+        a{  
+            width: 24px;
+            height: 24px;
+            color: $color-nav-footer-text
+        }
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
