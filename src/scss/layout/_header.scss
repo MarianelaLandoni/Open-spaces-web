@@ -67,14 +67,14 @@
     }
     
     &__bottom{
-        transform: translate(0, -150px);
+        //transform: translate(0, -150px);
 
         @media all and (min-width: 900px){
-            transform: translate(-180px, -380px);
+            transform: translate(-100px, -200px);
         }
 
         @media all and (min-width: 1728px){
-            transform: translate(-400px, -350px);
+            transform: translate(-400px, -500px);
         }
     }
     &__title{
