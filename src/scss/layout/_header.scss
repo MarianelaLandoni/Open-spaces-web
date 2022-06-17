@@ -1,5 +1,4 @@
 .header{
-    width: 100%;
     height: 100vh;
     background-image: url(../images/header.jpg);
     background-size: cover;
@@ -8,7 +7,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
 
     &__top{
         @media all and (min-width: 1728px){
@@ -27,7 +25,7 @@
         object-fit: contain;
         position: fixed;
         top: 65px;
-        left: 20px;
+        left: 30px;
 
         @media all and (min-width: 1728px){
             display:none;
@@ -68,14 +66,33 @@
         margin: 20px;
     }
     
+    &__bottom{
+        transform: translate(0, -150px);
+
+        @media all and (min-width: 900px){
+            transform: translate(-180px, -380px);
+        }
+
+        @media all and (min-width: 1728px){
+            transform: translate(-400px, -350px);
+        }
+    }
     &__title{
-        width: 400px;
         font-family: $font-main;
         font-size: 24px;
         font-weight: 600;
         color: $color-title;
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 250px;
+        @media all and (min-width: 900px){
+            width: 70%;
+            font-size: 36px;
+            text-align: left;
+            margin-bottom: 40px;
+            padding-bottom: 90px;
+
+        }
+
     }
     
     &__button{
@@ -84,10 +101,14 @@
         background-color: $color-button;
         color: $color-button-text;
         border: none;
-        transform: translateY(-40px);
+        transform: translate(75px, -130px);
+
+        @media all and (min-width: 900px){
+            transform: translateY(-90px);
+        }
 
         @media all and (min-width: 1728px){
-            transform: translateY(0);
+            transform: translateY(-100px);
         }
 
         a{

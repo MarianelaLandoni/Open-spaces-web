@@ -13,7 +13,7 @@
     }
 
     &__container{
-        padding: 90px 30px 140px 30px;
+        //padding: 90px 30px 140px 30px;
         @media all and (min-width: 1728px){
             width: 50%;
         }
@@ -23,6 +23,7 @@
         font-size: 24px;
         font-weight: 600;
         color: $color-title;
+        padding-top: 90px;
         @media all and (min-width: 1728px){
             width: 350px;
             font-size: 36px;
@@ -35,7 +36,8 @@
     &__text{
         font-size: 14px;
         color: $color-title;
-        padding: 20px 50px;
+        padding: 20px;
+        margin: 0 30px 20px 30px;
 
         @media all and (min-width: 1728px){
             width: 350px;
@@ -53,8 +55,7 @@
         background-color: $color-button;
         color: $color-button-text;
         border: none;
-        margin: 50px 120px 0px 120px;
-        padding: 12px 24px;
+        margin-bottom: 90px;
 
         @media all and (min-width: 1728px){
             transform: translateX(-85px);
