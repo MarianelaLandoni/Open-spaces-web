@@ -4,17 +4,19 @@
     color: $color-title;
     text-align: center;
 
-    @media all and (min-width: 1728px) {
+    @media all and (min-width: 900px) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 75px;
     }
 
     &__box{
-        margin-left: 100px;
-        margin-right: 100px;
-        @media all and (min-width: 1728px){
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 1.5;
+    
+        @media all and (min-width: 900px){
             display: grid;
-            grid-template-rows: 1fr 0.1fr 0.5fr;
             justify-items: center;
         }
     }
@@ -22,8 +24,9 @@
     &__title{
         font-size: 24px;
         font-weight: 600;
-        padding: 45px;
+        padding: 20px;
         grid-column: 1 / 4;
+        line-height: 1.5;
     }
 
     &__img{
@@ -49,6 +52,7 @@
         @media all and (min-width: 1728px){
             width: 210px;
             margin-bottom: 20px;
+            padding: 0 12px;
         }
     }
 
