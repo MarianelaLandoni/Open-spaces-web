@@ -32,7 +32,6 @@
     }
 
     &__button{
-        width: 100%;
         background-color: $color-background-free;
         border: none;
         margin: 5px 120px 50px 120px;
@@ -42,8 +41,10 @@
             color: $color-button-text;
             font-size: 16px;
             font-weight: 600;
+            padding: 25px;
         }
     }
+
 }
 
 

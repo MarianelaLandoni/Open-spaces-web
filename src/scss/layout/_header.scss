@@ -111,6 +111,8 @@
         border: none;
         transform: translate(75px, -130px);
 
+        
+
         @media all and (min-width: 900px){
             transform: translateY(-90px);
         }
@@ -125,8 +127,10 @@
             font-weight: 600;
             text-transform: capitalize;
             text-decoration: none;
+            padding: 22px;
         }
     }
+
 }
 
 

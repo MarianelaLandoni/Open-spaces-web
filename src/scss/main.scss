@@ -1,12 +1,10 @@
 @import 'core/reset';
 @import 'core/variables';
 @import 'components/code';
+@import 'components/animation';
 @import 'layout/header';
 @import 'layout/main-mod2';
 @import 'layout/main-mod3';
 @import 'layout/main-mod4';
 @import 'layout/footer';
 
-body{
-    width: 100vw;
-}
