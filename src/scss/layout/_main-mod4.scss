@@ -1,4 +1,5 @@
 .createSpaces{
+    width: 100%;
     font-family: $font-main;
     background-color: $color-background;
     text-align: center;
@@ -7,24 +8,43 @@
     justify-content: center;
     align-items: center;
 
-    @media all and (min-width: 900px){
+    @media all and (min-width: 1728px){
         flex-direction: row;
     }
 
     &__container{
         padding: 90px 30px 140px 30px;
+        @media all and (min-width: 1728px){
+            width: 50%;
+        }
     }
 
     &__title{
         font-size: 24px;
         font-weight: 600;
         color: $color-title;
+        @media all and (min-width: 1728px){
+            width: 350px;
+            font-size: 36px;
+            text-align: left;
+            margin: 0 auto;
+
+        }
     }
     
     &__text{
         font-size: 14px;
         color: $color-title;
         padding: 20px 50px;
+
+        @media all and (min-width: 1728px){
+            width: 350px;
+            font-size: 16px;
+            text-align: left;
+            margin: 0 auto;
+            padding: 20px 0;
+
+        }
     }
     
     &__button{
@@ -35,6 +55,11 @@
         border: none;
         margin: 50px 120px 0px 120px;
         padding: 12px 24px;
+
+        @media all and (min-width: 1728px){
+            transform: translateX(-85px);
+            margin: 0;
+        }
     
         a{
             color: $color-button-text;
@@ -52,12 +77,12 @@
         background-position: center;
         background-size: cover;
         margin-top: 0;
+        @media all and (min-width: 1728px){
+            width: 50%;
+            height: 570px;
+        }
     }
 }   
-
-figure{
-    height: 315px;
-}
 
 
 
