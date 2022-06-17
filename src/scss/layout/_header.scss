@@ -15,7 +15,8 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding-right: 450px
+            padding-right: 450px;
+            margin-top: 40px;
         }
     }
 
@@ -42,6 +43,7 @@
         @media all and (min-width: 1728px){
             display: flex;
             justify-content: space-around;
+            margin-top: 30px;
         }
 
         li{
@@ -75,7 +77,6 @@
     }
     
     &__bottom{
-        //transform: translate(0, -150px);
 
         @media all and (min-width: 900px){
             transform: translate(-100px, -200px);
