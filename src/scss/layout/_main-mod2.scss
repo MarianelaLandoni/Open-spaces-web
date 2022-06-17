@@ -4,7 +4,7 @@
     color: $color-title;
     text-align: center;
 
-    @media all and (min-width: 900px) {
+    @media all and (min-width: 1728px) {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -12,6 +12,11 @@
     &__box{
         margin-left: 100px;
         margin-right: 100px;
+        @media all and (min-width: 1728px){
+            display: grid;
+            grid-template-rows: 1fr 0.1fr 0.5fr;
+            justify-items: center;
+        }
     }
     
     &__title{
@@ -26,6 +31,9 @@
         height: 90px;
         margin-top: 37px;
         margin-bottom: 45px;
+        @media all and (min-width: 1728px){
+            margin-bottom: 20px;
+        }
     }
 
     &__titleBox{
@@ -38,6 +46,10 @@
         font-size: 16px;
         margin-top: 12px;
         padding-bottom: 50px;
+        @media all and (min-width: 1728px){
+            width: 210px;
+            margin-bottom: 20px;
+        }
     }
 
 }

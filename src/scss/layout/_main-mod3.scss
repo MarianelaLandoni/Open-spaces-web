@@ -18,11 +18,17 @@
     &__title{
         font-size: 24px;
         font-weight: 600;
+        @media all and (min-width: 1728px){
+            font-size: 36px;
+        }
     }
 
     &__text{
         font-size: 14px;
         margin: 15px 20px;
+        @media all and (min-width: 1728px){
+            font-size: 16px;
+        }
     }
 
     &__button{
