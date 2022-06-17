@@ -1,5 +1,5 @@
 .freeShipping{
-    width: 100vw;
+    width: 100%;
     background-color: $color-background-free;
     font-family: $font-main;
     color: $color-title-free;
@@ -26,6 +26,7 @@
     }
 
     &__button{
+        width: 100%;
         background-color: $color-background-free;
         border: none;
         margin: 5px 120px 50px 120px;
