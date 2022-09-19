@@ -1,74 +1,79 @@
-.footer{
-    height: 550px;
-    background-color: $color-background-footer;
-    font-family: $font-main;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.footer {
+  height: 550px;
+  background-color: $color-background-footer;
+  font-family: $font-main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    @media all and (min-width: 900px){
-     height: 275px;
-    }
-    
-    &__container{
-        @media all and (min-width: 900px){
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-    }
+  @media all and (min-width: 900px) {
+    height: 275px;
+  }
 
-    &__title{
-        color: $color-nav-footer-text;
-        font-size: 20px;
-        margin-bottom: 10px;
+  &__container {
+    @media all and (min-width: 900px) {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
     }
+  }
 
-    &__textMenu li{
-        margin-top: 5px;
-        
-        a{
-        color: $color-nav-footer-text ;
-        font-size: 14px;
-        text-decoration: none;
-        
-            .fa-brands{
-                font-size: 24px;
-                color: $color-social-icons;
-                margin-top: 20px;
-                padding-right: 12px;
-            }
-        }
+  &__title {
+    color: $color-nav-footer-text;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__textMenu li {
+    margin-top: 5px;
+
+    a {
+      color: $color-nav-footer-text;
+      font-size: 14px;
+      text-decoration: none;
+
+      .fa-brands {
+        font-size: 24px;
+        color: $color-social-icons;
+        margin-top: 20px;
+        padding-right: 12px;
+      }
     }
+  }
 
-    &__box{
-        margin: 40px 0;
+  &__box {
+    margin: 40px 0;
+  }
+
+  &__arrowUp {
+    position: relative;
+    a {
+      width: 50px;
+      height: 50px;
+      color: $color-arrow;
+      position: absolute;
+      bottom: -10px;
+      left: 100px;
+      text-align: center;
+      padding: 20px;
+
+      @media all and (min-width: 768px) {
+        bottom: 30px;
+        left: 250px;
+      }
+
+      @media all and (min-width: 900px) {
+        bottom: 30px;
+        left: 350px;
+      }
+
+      @media all and (min-width: 1440px) {
+        bottom: 30px;
+        left: 500px;
+      }
     }
-
-    &__arrowUp{
-        position: relative;
-        a{  
-            width: 50px;
-            height: 50px;
-            color: $color-arrow;
-            position: absolute;
-            bottom: -10px;
-            left: 100px;
-            text-align: center;
-            padding: 20px;
-
-            @media all and (min-width: 900px){
-                bottom: 30px;
-                left: 350px;
-            }
-    
-            @media all and (min-width: 1728px){
-                bottom: 30px;
-                left: 700px;
-            }
-        }
-    }
+  }
 }
