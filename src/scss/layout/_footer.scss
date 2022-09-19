@@ -65,14 +65,9 @@
         left: 250px;
       }
 
-      @media all and (min-width: 900px) {
+      @media all and (min-width: 1024px) {
         bottom: 30px;
-        left: 350px;
-      }
-
-      @media all and (min-width: 1440px) {
-        bottom: 30px;
-        left: 500px;
+        left: 400px;
       }
     }
   }
